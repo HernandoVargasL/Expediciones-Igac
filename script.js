@@ -39,7 +39,6 @@ document.addEventListener("DOMContentLoaded", function() {
         loop: false,
     
         // Pagination
-        effect: 'cards',
         pagination: {
             el: '.swiper-pagination2',
             clickable: true,
@@ -60,7 +59,6 @@ document.addEventListener("DOMContentLoaded", function() {
         loop: false,
     
         // Pagination
-        effect: 'cards',
         pagination: {
             el: '.swiper-pagination3',
             clickable: true,
@@ -81,7 +79,6 @@ document.addEventListener("DOMContentLoaded", function() {
         loop: false,
     
         // Pagination
-        effect: 'cards',
         pagination: {
             el: '.swiper-pagination4',
             clickable: true,
