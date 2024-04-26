@@ -41,18 +41,3 @@ function tabletMobile(x) {
 var x = window.matchMedia("(max-width: 526px)")
 tabletMobile(x)
 x.addListener(tabletMobile)
-
-// collapse menu
-
-if (document.querySelector(".nav-bar-toggle-igac")) {
-    const collapseButton = document.querySelector(".collapse-button");
-    const collapseMenu = document.querySelector(".collapse-menu");
-  
-    if (collapseButton && collapseMenu) {
-      collapseButton.addEventListener("click", (event) => {
-        collapseMenu.classList.toggle("expand");
-      });
-    } else {
-      console.error("Could not find the necessary elements on the page.");
-    }
-}
