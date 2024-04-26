@@ -19,7 +19,6 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel='stylesheet' href='https://unpkg.com/beerslider/dist/BeerSlider.css'><link rel="stylesheet" href="./style.css">
     
     
     <link rel="stylesheet" href="./css/maestra.css">
@@ -87,7 +86,7 @@
             </div>
         </div>
     </div>
-    <main class="position-relative">
+    <main class="position-relative pb-5">
         <div class="section que-son">
             <img class="shape" src="./images/shape.svg" alt="">
             <div class="container mt-5">
@@ -120,7 +119,7 @@
                 </div>
             </div>
         </div>
-        <div class="section pilares">
+        <div class="section pilares mt-5">
             <div class="container">
                 <h2 class="title">
                     Pilares de las expediciones igac
@@ -128,7 +127,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-4">
                         <div class="card w-100 bg-transparent border-0" style="width: 18rem;">
-                            <img class="card-img-top" alt="Card image cap">
+                            <img src="images/icono.svg" class="card-img-top m-auto" alt="Card image cap">
                             <div class="card-body text-center">                              
                               <p class="card-text">Uso de soluciones tecnológicas existentes, proveedores mundiales directos, propietarios de plataformas satelitales de toma de imágenes.</p>
                             </div>
@@ -136,7 +135,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="card w-100 bg-transparent border-0" style="width: 18rem;">
-                            <img class="card-img-top" alt="Card image cap">
+                            <img src="images/icono.svg" class="card-img-top m-auto" alt="Card image cap">
                             <div class="card-body text-center">
                               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dolor.</p>
                             </div>
@@ -144,7 +143,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="card w-100 bg-transparent border-0" style="width: 18rem;">
-                            <img class="card-img-top" alt="Card image cap">
+                            <img src="images/icono.svg" class="card-img-top m-auto" alt="Card image cap">
                             <div class="card-body text-center">
                               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dolor.</p>
                             </div>
@@ -152,7 +151,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="card w-100 bg-transparent border-0" style="width: 18rem;">
-                            <img class="card-img-top" alt="Card image cap">
+                            <img src="images/icono.svg" class="card-img-top m-auto" alt="Card image cap">
                             <div class="card-body text-center">
                               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dolor.</p>
                             </div>
@@ -160,7 +159,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="card w-100 bg-transparent border-0" style="width: 18rem;">
-                            <img class="card-img-top" alt="Card image cap">
+                            <img src="images/icono.svg" class="card-img-top m-auto" alt="Card image cap">
                             <div class="card-body text-center">
                               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dolor.</p>
                             </div>
@@ -169,7 +168,7 @@
                 </div>
             </div>
         </div>
-        <div class="section expedicion">
+        <div class="expedicion">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 d-flex align-items-center">
@@ -177,19 +176,47 @@
                             <h2 class="title text-left">
                                 Expedición COFÁN
                             </h2>
-                            <img src="./images/preview.png" alt="">
+                            <img src="./images/preview-cofan.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <p>El estudio piloto se realizó en el departamento de Putumayo, municipios de Valle del Guamuez y Orito, en el cabildo de Villanueva con el Pueblo A'l – Cofán, se realizó un recorrido de más de 5 Km, en 5 días, del 1 al 5 de agosto de 2022. La expedición es una gestión participativa de nombres geográficos desde una visión étnica, fueron visitados 40 Topónimos:</p>
-                        <div class="btn">
+                        <button class="btn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalCofan">
                             GALERÍA DE FOTOS
-                        </div>                   
+                        </button>                        
+                        <a class="btn">
+                            IR AL SITIO
+                        </a>                   
                     </div>
                 </div>
+                <hr class="mt-5 mb-5">
             </div>
         </div>
-        <div class="section expedicion">
+        <div class="expedicion">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p>El estudio piloto se realizó en el departamento de Putumayo, municipios de Valle del Guamuez y Orito, en el cabildo de Villanueva con el Pueblo A'l – Cofán, se realizó un recorrido de más de 5 Km, en 5 días, del 1 al 5 de agosto de 2022. La expedición es una gestión participativa de nombres geográficos desde una visión étnica, fueron visitados 40 Topónimos:</p>
+                        <button class="btn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalLineaNegra">
+                            GALERÍA DE FOTOS
+                        </button>
+                        <a class="btn">
+                            IR AL SITIO
+                        </a>                    
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="text">
+                            <h2 class="title text-left">
+                                Expedición LÍNEA NEGRA
+                            </h2>
+                            <img src="./images/preview-linea-negra.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <hr class="mt-5 mb-5">
+            </div>
+        </div>
+        <div class="expedicion">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 d-flex align-items-center">
@@ -197,20 +224,154 @@
                             <h2 class="title text-left">
                                 Expedición PALENQUE
                             </h2>
-                            <img src="./images/preview.png" alt="">
+                            <img src="./images/preview-palenque.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <p>El estudio piloto se realizó en el departamento de Putumayo, municipios de Valle del Guamuez y Orito, en el cabildo de Villanueva con el Pueblo A'l – Cofán, se realizó un recorrido de más de 5 Km, en 5 días, del 1 al 5 de agosto de 2022. La expedición es una gestión participativa de nombres geográficos desde una visión étnica, fueron visitados 40 Topónimos:</p>
-                        <div class="btn">
+                        <button class="btn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPalenque">
                             GALERÍA DE FOTOS
-                        </div>                   
+                        </button>
+                        <a class="btn">
+                            IR AL SITIO
+                        </a>                   
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </main>
+    <div class="modal fade" id="modalCofan" tabindex="-1" role="dialog" aria-labelledby="modalCofanLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalCofanLabel">Expedición COFÁN</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Swiper -->
+                    <div id="swiper2" class="swiper">
+                        <div class="swiper-button-prev swiper2-prev"></div>
+                        <div class="swiper-button-next swiper2-next"></div>
+                        <div class="swiper-pagination swiper-pagination2 col-12 d-flex mt-5"></div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">                         
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">                        
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
 
+    <div class="modal fade" id="modalLineaNegra" tabindex="-1" role="dialog" aria-labelledby="modalLineaNegraLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLineaNegraLabel">Expedición LÍNEA NEGRA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Swiper -->
+                    <div id="swiper3" class="swiper">
+                        <div class="swiper-button-prev swiper3-prev"></div>
+                        <div class="swiper-button-next swiper3-next"></div>
+                        <div class="swiper-pagination swiper-pagination3 col-12 d-flex mt-5"></div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">                         
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">                        
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalPalenque" tabindex="-1" role="dialog" aria-labelledby="modalPalenqueLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalPalenqueLabel">Expedición LÍNEA NEGRA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Swiper -->
+                    <div id="swiper4" class="swiper">
+                        <div class="swiper-button-prev swiper4-prev"></div>
+                        <div class="swiper-button-next swiper4-next"></div>
+                        <div class="swiper-pagination swiper-pagination4 col-12 d-flex mt-5"></div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">                         
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">                        
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/preview.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <footer class="footer">
         <div class="containerf">
             <div class="footer-container">
@@ -291,18 +452,17 @@
         </div>
     </footer>
 
+    <!--swipper js-->    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
-    <!--swipper js-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <script src='https://unpkg.com/beerslider/dist/BeerSlider.js'></script>
 
     <script src="./script.js"></script>
     <script  src="./navbar.js"></script>
+
     
 </body>
 </html>
